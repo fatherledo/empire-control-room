@@ -1,1 +1,61 @@
-<html><head><title>Empire Control Room</title></head><body><h1>Welcome to Wanna DOLLAH Empire</h1></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empire Control Room</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0e0e0e;
+      color: white;
+      font-family: 'Arial Black', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      background-image: url('tree_bg.png');
+      background-size: cover;
+      background-position: center;
+    }
+    h1 {
+      margin-top: 40px;
+      font-size: 2.5em;
+      color: #ffd700;
+      text-shadow: 2px 2px #000;
+    }
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      width: 100%;
+      max-width: 1000px;
+    }
+    .bot-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid #ffd700;
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+      font-size: 1em;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Wanna DOLLAH Empire</h1>
+  <div class="dashboard">
+    <div class="bot-card">🔥 Bot 1</div>
+    <div class="bot-card">🎯 Bot 2</div>
+    <div class="bot-card">💼 Bot 3</div>
+    <div class="bot-card">📈 Bot 4</div>
+    <div class="bot-card">🎙️ Bot 5</div>
+    <div class="bot-card">🔐 Bot 6</div>
+    <div class="bot-card">⚡ Bot 7</div>
+    <div class="bot-card">🧠 Bot 8</div>
+  </div>
+</body>
+</html>
