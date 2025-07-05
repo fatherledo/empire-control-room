@@ -1,0 +1,11 @@
+{
+  "json.validate.enable": false,
+  "json.schemaDownload.enable": false,
+  "files.exclude": {
+    "**/.next": true
+  },
+  "files.associations": {
+    "tsconfig.json": "plaintext",
+    "**/.next/**/*.json": "plaintext"
+  }
+}
