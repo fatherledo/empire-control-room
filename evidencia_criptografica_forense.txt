@@ -1,0 +1,18 @@
+Fecha: 2025-08-16
+Archivo analizado: ejemplo_combinado.log
+
+Firmas detectadas:
+1. vector_mimetico
+   Descripción: Vector simbólico ∮ (U+222E) o sus referencias.
+   Coincidencias: 3
+   Firma SHA-512: 304acb62acc2968f497f566343126be84f78ea0e47ac3607a182c142d220e6b87dcb101654ccaec0dab9903a30fe4b1fdc1e895186a68abb12b0088b0679409c
+
+2. monitoreo_pyto
+   Descripción: Algoritmo de monitoreo de integridad en tiempo real de Pyto.
+   Coincidencias: 5
+   Firma SHA-512: e623f85a3ada6fccd838e11ae4018a4ec2355c113ba8774406f0b636b32f4b9e282b01698723d3740c5894e29fc9317c0220585a612effb32077bdd500422a74
+
+3. analisis_forense_qsf
+   Descripción: Algoritmo de análisis forense de log en formato JSONL.
+   Coincidencias: 2
+   Firma SHA-512: 5703b9e336dac6cb597fe00308746f38a02be10536cebdd7ead29f9670db8848715ee5cbc29a66547fe67b19716ea45c4141cca48e80e2e6fc1b6ab3af432030
